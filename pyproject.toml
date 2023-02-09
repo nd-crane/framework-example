@@ -1,0 +1,21 @@
+[tool]
+[tool.pdm]
+
+[project]
+name = "framework-example"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "painswor28", email = "painswor@nd.edu"},
+]
+dependencies = [
+    "torch>=1.13.1",
+    "torchvision>=0.14.1",
+    "dvc>=2.43.1",
+    "notebook>=6.5.2",
+    "nbdev>=2.3.10",
+    "framework-example[dev] @ file:///Users/painsworth/Desktop/notebooks/deeplearning/framework-example",
+    "nbconvert>=7.2.9",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}

@@ -1,0 +1,8 @@
+stages:
+  nbdev:
+    cmd: jupyter nbconvert --to notebook --execute nbs/00_core.ipynb
+    deps:
+      - nbs/00_core.ipynb
+      - pdm.lock
+      - pyproject.toml
+      - data
